@@ -20,7 +20,7 @@ After `ONS.sol` updates its internal state upon mint, it will call into `AxelarM
 `AxelarGatewayGasServiceMock.sol` just blindly passes messages along. It mocks out the gas receiver and gateway functionality of the Axelar network.
 
 ### Sequence diagram
-![Axelar Sequence Diagram](/images/Axelar Sequence Diagram.png)
+![Axelar Sequence Diagram](https://github.com/ori-wagmi/axelar_poc_public/blob/main/Images/Axelar%20Sequence%20Diagram.png)
 
 ## Test
 Mints a domain name and verifies it gets propagated to all chains.
